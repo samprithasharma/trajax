@@ -1,0 +1,21 @@
+body{
+    font-family: helvetica;
+    text-align: center;
+}
+#birthday-greeting{
+font-size: 72px;
+color:green;
+text-transform: uppercase;
+animation: myturn 6s infinite;
+
+}
+@keyframes myturn{
+    0% {color: blue;}
+    15% { color:orange;}
+    50% { color:palegreen;}
+    45% {color:magenta;}
+    100% {color :yellow;}
+    10% {  color.
+        :brown;}
+
+}

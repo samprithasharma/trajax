@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <h2>converting json text into a java script object</h2>
+        <b>json object</b>
+        <p id="example"></p>
+        <b>use of javascript object</b>
+        <p id="example1"></p>
+        <script>
+            var jsonobj='{"name":"sam","employeeID":"1107","age":25}';
+            var obj=JSON.parse(jsonobj);
+            document.getElementById("example1").innerHTML=obj.name + ",with employee id" + obj.employeeID + ",and age" +  obj.age;
+            document.getElementById("example").innerHTML=jsonobj;
+        </script>
+    </body>
+</html>
